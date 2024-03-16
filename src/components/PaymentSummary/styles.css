@@ -1,0 +1,32 @@
+.tab-container {
+    text-align: center;
+}
+
+    .tab-container button {
+        margin: 5px;
+        padding: 5px 10px;
+        border: none;
+        cursor: pointer;
+    }
+
+        .tab-container button.active {
+            background-color: #007bff;
+            color: #fff;
+        }
+
+.payment-summary-table {
+    width: auto; /* Allow table to expand based on content */
+    margin: 20px auto; /* Center the table horizontally with some margin */
+    border-collapse: collapse; /* Collapse borders between cells */
+}
+
+    .payment-summary-table th,
+    .payment-summary-table td {
+        padding: 8px; /* Add padding around table cells */
+        border: 1px solid #ddd; /* Add border to table cells */
+        text-align: left; /* Align text to the left */
+    }
+
+    .payment-summary-table th {
+        background-color: #f2f2f2; /* Light gray background for table header */
+    }

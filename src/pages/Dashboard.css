@@ -1,0 +1,18 @@
+.tabs {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+    .tabs li {
+        margin-right: 10px;
+        cursor: pointer;
+        padding: 10px 15px; /* Adjust padding as needed */
+        border: 1px solid #ccc; /* Add borders for better visibility */
+    }
+
+        .tabs li.active {
+            font-weight: bold;
+            background-color: #f0f0f0; /* Highlight active tab */
+        }

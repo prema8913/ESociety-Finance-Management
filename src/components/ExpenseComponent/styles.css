@@ -1,0 +1,61 @@
+/* Expense component styles */
+
+/* Form container */
+.form-container {
+    margin-bottom: 20px;
+}
+
+/* Form inputs */
+.form-input {
+    margin-bottom: 10px;
+    padding: 8px;
+    width: 100%;
+}
+
+/* Submit button */
+.submit-button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+    .submit-button:hover {
+        background-color: #45a049;
+    }
+
+/* Expense list */
+.expense-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.expense-item {
+    margin-bottom: 10px;
+}
+
+/* Expense item fields */
+.expense-field {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+/* Edit and delete buttons */
+.action-button {
+    background-color: #f44336;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+    .action-button.edit-button {
+        background-color: #2196F3;
+    }
+
+    .action-button:hover {
+        opacity: 0.8;
+    }
